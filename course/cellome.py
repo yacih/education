@@ -161,7 +161,7 @@ cname={}
 for c in course:
     d=dict([((c.text).replace('\n',""),c.get('value'))])
     cname.update(d)
-#    print(c.text.strip())
+#    print(c.text.strip()) 123
 for cc in cname.values(): 
     if cc<'178':
         #print('（第一層）'+cc)#分類編號
